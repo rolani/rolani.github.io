@@ -33,11 +33,9 @@ colors = getjson(
 
 # all the repos list which i want to show on website
 repos_list = [
-    "vedic-lang/vedic", "vedicscriptures/bhagavad-gita-api",
-    "PtPrashantTripathi/IPL-2020-Prediction", "PtPrashantTripathi/linkpe",
-    "PtPrashantTripathi/movieinfo", "PtPrashantTripathi/Shree-Ganesh",
-    "PtPrashantTripathi/Cloud-Storage-System", "PtPrashantTripathi/Adhyatma",
-    "PtPrashantTripathi/php-social-networking-site"
+    "rolani/pulumi-csharp-infra", "rolani/fastapi-aws-app-runner",
+    "rolani/dask-ecs-lib", "rolani/fastsync",
+    "rolani/ClusteringScheduler"
 ]
 
 # execuation timer
