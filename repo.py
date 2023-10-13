@@ -36,7 +36,8 @@ repos_list = [
     "rolani/pulumi-csharp-infra", "rolani/fastapi-aws-app-runner",
     "rolani/dask-ecs-lib", "rolani/FastEdgeSyncAI",
     "rolani/FogSyncSimulator", "rolani/SSOSolution-Keycloak",
-    "rolani/aws-vpc-template-terraform", "rolani/AirMachine"
+    "rolani/aws-vpc-template-terraform", "rolani/AirMachine",
+    "rolani/flask-random-fruit"
 ]
 
 # execuation timer
