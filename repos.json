@@ -9,54 +9,78 @@
         "date": "2023-09-19T00:12:40Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-12 20:52:17.477406"
+        "generatedOn": "2023-10-13 16:48:07.575715"
     },
     {
         "name": "fastapi-aws-app-runner",
         "url": "https://github.com/rolani/fastapi-aws-app-runner",
-        "description": "Deploys a FastAPI app on AWS App Runner",
-        "banner": "https://opengraph.githubassets.com/60c71106b703bfa2ee14653a89cbc219f6bd159a6249a8d61585ea6dbed37835/rolani/fastapi-aws-app-runner",
+        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for hassle-free scalability. With GitHub Actions, you can ensure your code is continuously integrated, tested, and deployed, saving you time and effort. ",
+        "banner": "https://opengraph.githubassets.com/8164609f048ad7055e46a900aad42c76b02ae99bec207f1331bd5e97958993da/rolani/fastapi-aws-app-runner",
         "color": "#3572A5",
         "lang": "Python",
         "date": "2023-09-01T22:36:11Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-12 20:52:17.477406"
+        "generatedOn": "2023-10-13 16:48:07.575715"
     },
     {
         "name": "dask-ecs-lib",
         "url": "https://github.com/rolani/dask-ecs-lib",
-        "description": "This library creates a dask cluster on AWS ECS to run a provided function",
-        "banner": "https://opengraph.githubassets.com/784065cdf12f389ade2032382616d3701690805b021ded1b6bf7faddaa9d39a3/rolani/dask-ecs-lib",
+        "description": "dask-ecs-lib is a Python library that effortlessly spins up a Dask cluster on AWS ECS using Fargate, allowing you to seamlessly execute and parallelize your functions. ",
+        "banner": "https://opengraph.githubassets.com/7976b5d984b40e627476b3e486d477439f8b5d414ed1e77543d7640daa7a19ad/rolani/dask-ecs-lib",
         "color": "#3572A5",
         "lang": "Python",
         "date": "2023-07-26T15:14:00Z",
-        "stars": 0,
+        "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-12 20:52:17.477406"
+        "generatedOn": "2023-10-13 16:48:07.575715"
     },
     {
-        "name": "fastsync",
-        "url": "https://github.com/rolani/fastsync",
-        "description": "Fast Synchronizer Implementation and Simulation Code and Experiments",
-        "banner": "https://opengraph.githubassets.com/0ae59941a415d600f3cce79c28f076560ae9ba256d73a0e87d24a8d1192129a6/rolani/fastsync",
+        "name": "FastEdgeSyncAI",
+        "url": "https://github.com/rolani/FastEdgeSyncAI",
+        "description": "FastEdgeSyncAI provides codes and datasets for a robust synchronizer tailored for AI tasks in edge computing environments. Accelerate your AI applications and ensure seamless synchronization.",
+        "banner": "https://opengraph.githubassets.com/af07d6e04b94f9dfeae46db434dcd25d4d14ea32c549d50ffb5d1ff6fdb56ad5/rolani/FastEdgeSyncAI",
         "color": "#b07219",
         "lang": "Java",
         "date": "2021-07-13T15:07:38Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-12 20:52:17.477406"
+        "generatedOn": "2023-10-13 16:48:07.575715"
     },
     {
-        "name": "ClusteringScheduler",
-        "url": "https://github.com/rolani/ClusteringScheduler",
-        "description": "Air Machines synchronization scheduling using clustering",
-        "banner": "https://opengraph.githubassets.com/4daf8db89b717c62c1c9071a655f3079d5da596420e7fc4fbfb23416b53b56e6/rolani/ClusteringScheduler",
+        "name": "FogSyncSimulator",
+        "url": "https://github.com/rolani/FogSyncSimulator",
+        "description": "FogSyncSimulator is a powerful tool that enables the simulation of synchronization scheduling in fog devices through clustering. Dive into the world of fog computing and fine-tune your scheduling algorithms for optimal performance. ",
+        "banner": "https://opengraph.githubassets.com/9bb48f910a02451b2a33427c374de19bf2230c63c73f2fc25f34e6c967cde132/rolani/FogSyncSimulator",
         "color": "#b07219",
         "lang": "Java",
         "date": "2018-04-11T04:04:35Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-12 20:52:17.477406"
+        "generatedOn": "2023-10-13 16:48:07.575715"
+    },
+    {
+        "name": "SSOSolution-Keycloak",
+        "url": "https://github.com/rolani/SSOSolution-Keycloak",
+        "description": "Single Sign-On (SSO) solution with Keycloak. Consolidated user authentication and access control across various applications to significantly enhancing security measures and user experiences.",
+        "banner": "https://opengraph.githubassets.com/5c32403766461fee895334c01f0098fede3f8deac4c531db782188995d576bd8/rolani/SSOSolution-Keycloak",
+        "color": "#3572A5",
+        "lang": "Python",
+        "date": "2023-10-13T15:45:24Z",
+        "stars": 1,
+        "forks": 0,
+        "generatedOn": "2023-10-13 16:48:07.575715"
+    },
+    {
+        "name": "aws-vpc-template-terraform",
+        "url": "https://github.com/rolani/aws-vpc-template-terraform",
+        "description": "Simple VPC network module to create private and public subnets along with associated networking.",
+        "banner": "https://opengraph.githubassets.com/41db261f8a456e07b0f59bd2b898c2e84826cbdc36dd53a3cb2eab52ee17fa99/rolani/aws-vpc-template-terraform",
+        "color": "#844FBA",
+        "lang": "HCL",
+        "date": "2023-10-13T16:40:00Z",
+        "stars": 1,
+        "forks": 0,
+        "generatedOn": "2023-10-13 16:48:07.575715"
     }
 ]

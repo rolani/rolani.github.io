@@ -34,8 +34,9 @@ colors = getjson(
 # all the repos list which i want to show on website
 repos_list = [
     "rolani/pulumi-csharp-infra", "rolani/fastapi-aws-app-runner",
-    "rolani/dask-ecs-lib", "rolani/fastsync",
-    "rolani/ClusteringScheduler"
+    "rolani/dask-ecs-lib", "rolani/FastEdgeSyncAI",
+    "rolani/FogSyncSimulator", "rolani/SSOSolution-Keycloak",
+    "rolani/aws-vpc-template-terraform"
 ]
 
 # execuation timer
