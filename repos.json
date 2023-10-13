@@ -9,7 +9,7 @@
         "date": "2023-09-19T00:12:40Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:08:54.611899"
+        "generatedOn": "2023-10-13 19:22:51.797833"
     },
     {
         "name": "fastapi-aws-app-runner",
@@ -21,7 +21,7 @@
         "date": "2023-09-01T22:36:11Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:08:54.611899"
+        "generatedOn": "2023-10-13 19:22:51.797833"
     },
     {
         "name": "dask-ecs-lib",
@@ -33,7 +33,7 @@
         "date": "2023-07-26T15:14:00Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:08:54.611899"
+        "generatedOn": "2023-10-13 19:22:51.797833"
     },
     {
         "name": "FastEdgeSyncAI",
@@ -45,7 +45,7 @@
         "date": "2021-07-13T15:07:38Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:08:54.611899"
+        "generatedOn": "2023-10-13 19:22:51.797833"
     },
     {
         "name": "FogSyncSimulator",
@@ -57,7 +57,7 @@
         "date": "2018-04-11T04:04:35Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:08:54.611899"
+        "generatedOn": "2023-10-13 19:22:51.797833"
     },
     {
         "name": "SSOSolution-Keycloak",
@@ -69,7 +69,7 @@
         "date": "2023-10-13T15:45:24Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:08:54.611899"
+        "generatedOn": "2023-10-13 19:22:51.797833"
     },
     {
         "name": "aws-vpc-template-terraform",
@@ -81,6 +81,18 @@
         "date": "2023-10-13T16:40:00Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:08:54.611899"
+        "generatedOn": "2023-10-13 19:22:51.797833"
+    },
+    {
+        "name": "AirMachine",
+        "url": "https://github.com/rolani/AirMachine",
+        "description": "Code for Air Machines simulation for video surveillance application scenario. It provides a way of deploying programs over a platform consisting of the cloud, fogs, and devices.",
+        "banner": "https://opengraph.githubassets.com/9596366be6c2de00f7f3eee7ffa10dec57b5c2e57ce3403d6e0af2aec5c35ed8/rolani/AirMachine",
+        "color": "#b07219",
+        "lang": "Java",
+        "date": "2018-02-21T03:00:50Z",
+        "stars": 1,
+        "forks": 0,
+        "generatedOn": "2023-10-13 19:22:51.797833"
     }
 ]
