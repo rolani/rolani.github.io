@@ -11,7 +11,7 @@ fetch("repos.json")
         repo.color
       };"></span><span>${repo.lang}</span></span><a href="${
         repo.url
-      }"><h4 class="mt-15 mb-20">${repo.name}</h4></a><p>${
+      }"><h4 class="mt-20 mb-30">${repo.name}</h4></a><p>${
         repo.description
       }</p><a href="${
         repo.url
