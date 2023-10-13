@@ -9,19 +9,19 @@
         "date": "2023-09-19T00:12:40Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 16:48:07.575715"
+        "generatedOn": "2023-10-13 19:08:54.611899"
     },
     {
         "name": "fastapi-aws-app-runner",
         "url": "https://github.com/rolani/fastapi-aws-app-runner",
-        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for hassle-free scalability. With GitHub Actions, you can ensure your code is continuously integrated, tested, and deployed, saving you time and effort. ",
-        "banner": "https://opengraph.githubassets.com/8164609f048ad7055e46a900aad42c76b02ae99bec207f1331bd5e97958993da/rolani/fastapi-aws-app-runner",
+        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for hassle-free scalability. GitHub Actions is used  for continuous integration and testing.",
+        "banner": "https://opengraph.githubassets.com/145275b014a0308adecdb4d12c74c13d6bcbf7b3c007bf0f9e298fb08f0bb829/rolani/fastapi-aws-app-runner",
         "color": "#3572A5",
         "lang": "Python",
         "date": "2023-09-01T22:36:11Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 16:48:07.575715"
+        "generatedOn": "2023-10-13 19:08:54.611899"
     },
     {
         "name": "dask-ecs-lib",
@@ -33,7 +33,7 @@
         "date": "2023-07-26T15:14:00Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 16:48:07.575715"
+        "generatedOn": "2023-10-13 19:08:54.611899"
     },
     {
         "name": "FastEdgeSyncAI",
@@ -45,7 +45,7 @@
         "date": "2021-07-13T15:07:38Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 16:48:07.575715"
+        "generatedOn": "2023-10-13 19:08:54.611899"
     },
     {
         "name": "FogSyncSimulator",
@@ -57,7 +57,7 @@
         "date": "2018-04-11T04:04:35Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 16:48:07.575715"
+        "generatedOn": "2023-10-13 19:08:54.611899"
     },
     {
         "name": "SSOSolution-Keycloak",
@@ -69,7 +69,7 @@
         "date": "2023-10-13T15:45:24Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 16:48:07.575715"
+        "generatedOn": "2023-10-13 19:08:54.611899"
     },
     {
         "name": "aws-vpc-template-terraform",
@@ -81,6 +81,6 @@
         "date": "2023-10-13T16:40:00Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 16:48:07.575715"
+        "generatedOn": "2023-10-13 19:08:54.611899"
     }
 ]
