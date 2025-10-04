@@ -2,73 +2,74 @@
     {
         "name": "pulumi-csharp-infra",
         "url": "https://github.com/rolani/pulumi-csharp-infra",
-        "description": "Simple c# application with a ui and a backend api deployed on AWS EKS using pulumi to provision all infrastructure from ground up.",
-        "banner": "https://opengraph.githubassets.com/4169ae56775b3b3d60ad672f19feb9a17f8960b0cab4919b437a9c700ed2a6f5/rolani/pulumi-csharp-infra",
+        "description": "Simple c# application with a ui and a backend api deployed on AWS EKS using pulumi to provision all infrastructure from ground up",
+        "banner": "https://opengraph.githubassets.com/d263593ba8e019ad2b2dd5df1121682c7bc279e514774f66efaa91ce32c895a9/rolani/pulumi-csharp-infra",
         "color": "#178600",
         "lang": "C#",
         "date": "2023-09-19T00:12:40Z",
-        "stars": 0,
+        "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "fastapi-aws-app-runner",
         "url": "https://github.com/rolani/fastapi-aws-app-runner",
-        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for scalability with Github actions enabled.",
+        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for hassle-free scalability. GitHub Actions is used  for continuous integration and testing.",
+        "banner": "https://opengraph.githubassets.com/145275b014a0308adecdb4d12c74c13d6bcbf7b3c007bf0f9e298fb08f0bb829/rolani/fastapi-aws-app-runner",
         "color": "#3572A5",
         "lang": "Python",
         "date": "2023-09-01T22:36:11Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "dask-ecs-lib",
         "url": "https://github.com/rolani/dask-ecs-lib",
-        "description": "dask-ecs-lib is a Python library that effortlessly spins up a Dask cluster on AWS ECS using Fargate, allowing seamless parallelization of functions.",
-        "banner": "https://opengraph.githubassets.com/7976b5d984b40e627476b3e486d477439f8b5d414ed1e77543d7640daa7a19ad/rolani/dask-ecs-lib",
+        "description": "dask-ecs-lib is a Python library that effortlessly spins up a Dask cluster on AWS ECS using Fargate, allowing you to seamlessly execute and parallelize your functions. ",
+        "banner": "https://opengraph.githubassets.com/a0498c30b680f6e8022b2c9ec32a8940ea275b43db1d5c284e311829ba21781e/rolani/dask-ecs-lib",
         "color": "#3572A5",
         "lang": "Python",
         "date": "2023-07-26T15:14:00Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "FastEdgeSyncAI",
         "url": "https://github.com/rolani/FastEdgeSyncAI",
-        "description": "FastEdgeSyncAI provides codes and datasets for a robust synchronizer tailored for AI tasks in edge computing environments.",
+        "description": "FastEdgeSyncAI provides codes and datasets for a robust synchronizer tailored for AI tasks in edge computing environments. Accelerate your AI applications and ensure seamless synchronization.",
         "banner": "https://opengraph.githubassets.com/af07d6e04b94f9dfeae46db434dcd25d4d14ea32c549d50ffb5d1ff6fdb56ad5/rolani/FastEdgeSyncAI",
         "color": "#b07219",
         "lang": "Java",
         "date": "2021-07-13T15:07:38Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "FogSyncSimulator",
         "url": "https://github.com/rolani/FogSyncSimulator",
-        "description": "FogSyncSimulator is a powerful tool that enables the simulation of synchronization scheduling in fog devices through clustering.",
+        "description": "FogSyncSimulator is a powerful tool that enables the simulation of synchronization scheduling in fog devices through clustering. Dive into the world of fog computing and fine-tune your scheduling algorithms for optimal performance. ",
         "banner": "https://opengraph.githubassets.com/9bb48f910a02451b2a33427c374de19bf2230c63c73f2fc25f34e6c967cde132/rolani/FogSyncSimulator",
         "color": "#b07219",
         "lang": "Java",
         "date": "2018-04-11T04:04:35Z",
         "stars": 0,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "SSOSolution-Keycloak",
         "url": "https://github.com/rolani/SSOSolution-Keycloak",
-        "description": "Single Sign-On (SSO) solution with Keycloak. Consolidated user authentication and access control across various applications, enhancing security.",
+        "description": "Single Sign-On (SSO) solution with Keycloak. Consolidated user authentication and access control across various applications to significantly enhancing security measures and user experiences.",
         "banner": "https://opengraph.githubassets.com/5c32403766461fee895334c01f0098fede3f8deac4c531db782188995d576bd8/rolani/SSOSolution-Keycloak",
         "color": "#3572A5",
         "lang": "Python",
         "date": "2023-10-13T15:45:24Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "aws-vpc-template-terraform",
@@ -80,19 +81,19 @@
         "date": "2023-10-13T16:40:00Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "AirMachine",
         "url": "https://github.com/rolani/AirMachine",
-        "description": "Code for Air Machines simulation for video surveillance application scenario. Providing a way of deploying programs over a cloud-fog-device platform.",
+        "description": "Code for Air Machines simulation for video surveillance application scenario. It provides a way of deploying programs over a platform consisting of the cloud, fogs, and devices.",
         "banner": "https://opengraph.githubassets.com/9596366be6c2de00f7f3eee7ffa10dec57b5c2e57ce3403d6e0af2aec5c35ed8/rolani/AirMachine",
         "color": "#b07219",
         "lang": "Java",
         "date": "2018-02-21T03:00:50Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     },
     {
         "name": "flask-random-fruit",
@@ -104,6 +105,6 @@
         "date": "2023-09-02T22:31:21Z",
         "stars": 1,
         "forks": 0,
-        "generatedOn": "2023-10-13 19:28:17.007995"
+        "generatedOn": "2025-10-04 04:40:43.555407"
     }
 ]
