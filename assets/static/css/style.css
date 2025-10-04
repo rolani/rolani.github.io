@@ -593,6 +593,25 @@ p {
   text-transform: capitalize;
   margin-top: 25px;
 }
+.blog-sec .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog-sec .col-sm-4 {
+  display: flex;
+}
+.blog-sec .repo-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  min-height: 100%;
+}
+.blog-sec .mdl-card {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 .blog-sec .mdl-card .mdl-card__title {
   overflow: hidden;
 }
