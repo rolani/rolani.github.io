@@ -51,7 +51,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css);
-@import url(default-skin/default-skin.css);
+@import url(./default-skin/default-skin.css);
 html,
 body,
 div,
@@ -521,7 +521,7 @@ p {
   top: 0;
 }
 .bg-struct.bg-img {
-  background: url(../img/banner.jpg);
+  background: url(../../assets/static/images/banner.jpg);
   background-position: center;
   background-size: cover;
 }
