@@ -14,7 +14,7 @@
     {
         "name": "fastapi-aws-app-runner",
         "url": "https://github.com/rolani/fastapi-aws-app-runner",
-        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for hassle-free scalability. GitHub Actions is used  for continuous integration and testing.",
+        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for hassle-free scalability.",
         "banner": "https://opengraph.githubassets.com/145275b014a0308adecdb4d12c74c13d6bcbf7b3c007bf0f9e298fb08f0bb829/rolani/fastapi-aws-app-runner",
         "color": "#3572A5",
         "lang": "Python",

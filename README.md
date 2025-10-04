@@ -1,4 +1,7 @@
 
+
+[![Site Deployment Status](https://github.com/rolani/rolani.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/rolani/rolani.github.io/actions/workflows/deploy.yml)
+
 ## About
 
 My personal portfolio site.
