@@ -1,3 +1,38 @@
+/* Ensure all repo cards have the same height */
+.repo-card {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.repo-card .mdl-card__title {
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+}
+
+.repo-card .blog-img {
+  max-height: 140px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+.repo-card .mdl-card__supporting-text {
+  flex: 1 1 auto;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.repo-card .mdl-card__actions {
+  margin-top: auto;
+}
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
