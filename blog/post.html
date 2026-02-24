@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Post | Richard Olaniyan Blog</title>
+    <meta name="description" content="Technical blog post by Richard Olaniyan." />
+    <link rel="stylesheet" href="../assets/static/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script defer src="../assets/static/js/blog.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="../index.html">Richard Olaniyan</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../index.html">Home</a>
+          <a href="./index.html">Blog</a>
+        </nav>
+      </div>
+    </header>
+    <main class="site-main section">
+      <article class="container card">
+        <p><a href="./index.html">← Back to blog</a></p>
+        <h1 id="post-title">Loading post...</h1>
+        <p id="post-meta" class="project-meta"></p>
+        <div id="post-content"></div>
+      </article>
+    </main>
+    <script>
+      window.__BLOG_POSTS_FALLBACK__ = [
+        {
+          slug: "ci-cd-vs-devops",
+          title: "Understanding the Differences Between CI/CD and DevOps",
+          date: "2024-12-24",
+          tags: ["devops", "ci-cd", "delivery", "engineering-culture"],
+          excerpt:
+            "DevOps is the broader culture and operating model, while CI/CD is a focused automation practice for integration and delivery pipelines.",
+        },
+        {
+          slug: "power-of-pulumi-for-iac",
+          title: "The Power of Pulumi for Infrastructure as Code (IaC)",
+          date: "2025-08-01",
+          tags: ["pulumi", "infrastructure-as-code", "devops", "aws", "azure", "google-cloud"],
+          excerpt:
+            "Pulumi lets teams define cloud infrastructure in familiar programming languages while supporting multi-cloud delivery and modern CI/CD workflows.",
+        },
+        {
+          slug: "welcome-to-my-blog",
+          title: "Welcome to My Engineering Blog",
+          date: "2024-02-12",
+          tags: ["platform-engineering", "cloud", "reliability"],
+          excerpt:
+            "A quick introduction to this blog and the kind of infrastructure and platform topics I will share here.",
+        },
+      ];
+
+      window.__BLOG_CONTENT_FALLBACK__ = {
+        "ci-cd-vs-devops":
+          "<h2>Understanding the Differences Between CI/CD and DevOps</h2><p>CI/CD and DevOps are often used together, but they are not the same thing. They solve related problems at different levels in modern software delivery.</p><h3>1) Philosophy and scope</h3><h4>DevOps</h4><ul><li><strong>Philosophy:</strong> A culture and operating model that promotes collaboration between development, operations, security, and platform teams.</li><li><strong>Scope:</strong> End-to-end software lifecycle, from planning and coding through deployment, monitoring, incident response, and continuous improvement.</li></ul><h4>CI/CD</h4><ul><li><strong>Philosophy:</strong> A set of automation practices that improves code integration quality and release speed.</li><li><strong>Scope:</strong> Narrower focus on continuous integration (CI) and continuous delivery/deployment (CD) pipelines.</li></ul><h3>2) Tools and technologies</h3><h4>DevOps examples</h4><ul><li><strong>Planning:</strong> JIRA, Trello</li><li><strong>Code collaboration:</strong> GitHub, Bitbucket</li><li><strong>Infrastructure automation:</strong> Terraform, Ansible</li><li><strong>Monitoring and logging:</strong> Splunk, ELK Stack</li></ul><h4>CI/CD examples</h4><ul><li><strong>Integration and testing:</strong> Jenkins, Travis CI, CircleCI</li><li><strong>Deployment automation:</strong> Spinnaker, GoCD, Jenkins X</li><li><strong>Container orchestration:</strong> Kubernetes, Docker Swarm</li></ul><h3>3) Benefits</h3><h4>DevOps benefits</h4><ul><li>Better collaboration and communication across teams</li><li>Faster issue resolution through shared ownership</li><li>Stronger feedback loops across the full application lifecycle</li></ul><h4>CI/CD benefits</h4><ul><li>Faster, more reliable release cadence</li><li>Immediate feedback on code quality and integration issues</li><li>Reduced manual error and more reproducible deployments</li></ul><h3>4) Challenges</h3><h4>DevOps challenges</h4><ul><li>Cultural resistance when breaking traditional silos</li><li>Complexity of integrating many processes, tools, and responsibilities</li></ul><h4>CI/CD challenges</h4><ul><li>Maintaining high-quality, comprehensive test coverage</li><li>Managing complex pipelines, especially for microservices architectures</li></ul><h3>Final takeaway</h3><p>DevOps is the broader philosophy and operational culture. CI/CD is a core implementation practice within that philosophy.</p><p>Both are essential pillars of modern software delivery, but they address different concerns. Understanding this distinction helps teams adopt each one intentionally and effectively.</p>",
+        "power-of-pulumi-for-iac":
+          "<h2>The Power of Pulumi for Infrastructure as Code (IaC)</h2><p>Pulumi empowers developers and DevOps teams to define, deploy, and manage cloud infrastructure using popular programming languages like Python, JavaScript, TypeScript, and Go.</p><p>What is truly remarkable is its versatility in provisioning a wide array of cloud resources across leading providers including AWS, Azure, Google Cloud, and more.</p><p>This means you can spin up anything from virtual machines, databases, and storage buckets to serverless functions, networking components, and beyond.</p><p><img src='../assets/static/blog/images/pulumi-iac-diagram.png' alt='Pulumi IaC architecture diagram' /></p><p><em>Pulumi architecture overview across local tools, remote deployments, and cloud providers.</em></p><h3>Key features</h3><ul><li>Multi-cloud support</li><li>Real programming languages</li><li>Declarative or imperative styles</li><li>State management</li><li>Resource abstraction</li><li>Custom components</li><li>Collaboration and versioning</li><li>CI/CD integration</li></ul><h3>Why Pulumi stands out</h3><p>Pulumi bridges the gap between software engineering and infrastructure engineering. Teams can:</p><ul><li>Use familiar language tooling (package managers, linters, tests, IDE support)</li><li>Reuse abstractions through modules and components</li><li>Build safer infrastructure changes using type checking and code review practices</li><li>Standardize infrastructure patterns across teams and projects</li></ul><h3>Typical workflow</h3><ol><li><strong>Author infrastructure in code</strong> using reusable components.</li><li><strong>Preview changes</strong> before apply to understand expected diffs.</li><li><strong>Deploy with CI/CD</strong> so infrastructure changes are versioned, auditable, and repeatable.</li><li><strong>Scale across environments</strong> (dev/staging/prod) with config-driven stacks.</li></ol><h3>Real-world use cases</h3><ul><li>Provisioning Kubernetes clusters and supporting cloud services</li><li>Deploying secure VPC/network topologies and access controls</li><li>Managing data platforms (storage, compute, event pipelines)</li><li>Shipping serverless workloads with environment-specific configuration</li></ul><p>Whether you are orchestrating container clusters, configuring databases, setting up networking rules, or deploying serverless functions, Pulumi provides an intuitive, code-centric approach for crafting cloud infrastructure.</p><p>It is a strong option for teams looking to streamline IaC workflows with languages they already know.</p><h3>Useful links</h3><ul><li><a href='https://www.pulumi.com/' target='_blank' rel='noopener noreferrer'>Pulumi</a></li><li><a href='https://lnkd.in/gxF_rb-B' target='_blank' rel='noopener noreferrer'>Simple Python example</a></li></ul><p>Tags: #Pulumi #InfrastructureAsCode #CloudResources #AWS #Azure #GoogleCloud #DevOps</p>",
+        "welcome-to-my-blog":
+          "<h2>Welcome to my engineering blog</h2><p>Thanks for visiting.</p><p>I created this space to share practical lessons from building cloud and platform systems, especially around:</p><ul><li>Kubernetes operations and reliability patterns</li><li>Infrastructure automation with Terraform and GitOps</li><li>Observability, incident response, and SLO design</li><li>AI and data infrastructure scaling trade-offs</li></ul><p>More posts coming soon.</p>",
+      };
+    </script>
+  </body>
+</html>

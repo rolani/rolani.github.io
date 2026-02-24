@@ -1,110 +1,50 @@
 [
-    {
-        "name": "pulumi-csharp-infra",
-        "url": "https://github.com/rolani/pulumi-csharp-infra",
-        "description": "Simple c# application with a ui and a backend api deployed on AWS EKS using pulumi to provision all infrastructure from ground up",
-        "banner": "https://opengraph.githubassets.com/d263593ba8e019ad2b2dd5df1121682c7bc279e514774f66efaa91ce32c895a9/rolani/pulumi-csharp-infra",
-        "color": "#178600",
-        "lang": "C#",
-        "date": "2023-09-19T00:12:40Z",
-        "stars": 1,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "fastapi-aws-app-runner",
-        "url": "https://github.com/rolani/fastapi-aws-app-runner",
-        "description": "This repository provides a streamlined solution for deploying FastAPI applications, leveraging AWS App Runner for hassle-free scalability.",
-        "banner": "https://opengraph.githubassets.com/145275b014a0308adecdb4d12c74c13d6bcbf7b3c007bf0f9e298fb08f0bb829/rolani/fastapi-aws-app-runner",
-        "color": "#3572A5",
-        "lang": "Python",
-        "date": "2023-09-01T22:36:11Z",
-        "stars": 1,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "dask-ecs-lib",
-        "url": "https://github.com/rolani/dask-ecs-lib",
-        "description": "dask-ecs-lib is a Python library that effortlessly spins up a Dask cluster on AWS ECS using Fargate, allowing you to seamlessly execute and parallelize your functions. ",
-        "banner": "https://opengraph.githubassets.com/a0498c30b680f6e8022b2c9ec32a8940ea275b43db1d5c284e311829ba21781e/rolani/dask-ecs-lib",
-        "color": "#3572A5",
-        "lang": "Python",
-        "date": "2023-07-26T15:14:00Z",
-        "stars": 1,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "FastEdgeSyncAI",
-        "url": "https://github.com/rolani/FastEdgeSyncAI",
-        "description": "FastEdgeSyncAI provides codes and datasets for a robust synchronizer tailored for AI tasks in edge computing environments. Accelerate your AI applications and ensure seamless synchronization.",
-        "banner": "https://opengraph.githubassets.com/af07d6e04b94f9dfeae46db434dcd25d4d14ea32c549d50ffb5d1ff6fdb56ad5/rolani/FastEdgeSyncAI",
-        "color": "#b07219",
-        "lang": "Java",
-        "date": "2021-07-13T15:07:38Z",
-        "stars": 0,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "FogSyncSimulator",
-        "url": "https://github.com/rolani/FogSyncSimulator",
-        "description": "FogSyncSimulator is a powerful tool that enables the simulation of synchronization scheduling in fog devices through clustering. Dive into the world of fog computing and fine-tune your scheduling algorithms for optimal performance. ",
-        "banner": "https://opengraph.githubassets.com/9bb48f910a02451b2a33427c374de19bf2230c63c73f2fc25f34e6c967cde132/rolani/FogSyncSimulator",
-        "color": "#b07219",
-        "lang": "Java",
-        "date": "2018-04-11T04:04:35Z",
-        "stars": 0,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "SSOSolution-Keycloak",
-        "url": "https://github.com/rolani/SSOSolution-Keycloak",
-        "description": "Single Sign-On (SSO) solution with Keycloak. Consolidated user authentication and access control across various applications to significantly enhancing security measures and user experiences.",
-        "banner": "https://opengraph.githubassets.com/5c32403766461fee895334c01f0098fede3f8deac4c531db782188995d576bd8/rolani/SSOSolution-Keycloak",
-        "color": "#3572A5",
-        "lang": "Python",
-        "date": "2023-10-13T15:45:24Z",
-        "stars": 1,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "aws-vpc-template-terraform",
-        "url": "https://github.com/rolani/aws-vpc-template-terraform",
-        "description": "Simple VPC network module to create private and public subnets along with associated networking.",
-        "banner": "https://opengraph.githubassets.com/41db261f8a456e07b0f59bd2b898c2e84826cbdc36dd53a3cb2eab52ee17fa99/rolani/aws-vpc-template-terraform",
-        "color": "#844FBA",
-        "lang": "HCL",
-        "date": "2023-10-13T16:40:00Z",
-        "stars": 1,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "AirMachine",
-        "url": "https://github.com/rolani/AirMachine",
-        "description": "Code for Air Machines simulation for video surveillance application scenario. It provides a way of deploying programs over a platform consisting of the cloud, fogs, and devices.",
-        "banner": "https://opengraph.githubassets.com/9596366be6c2de00f7f3eee7ffa10dec57b5c2e57ce3403d6e0af2aec5c35ed8/rolani/AirMachine",
-        "color": "#b07219",
-        "lang": "Java",
-        "date": "2018-02-21T03:00:50Z",
-        "stars": 1,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    },
-    {
-        "name": "flask-random-fruit",
-        "url": "https://github.com/rolani/flask-random-fruit",
-        "description": "Simple flask app with github actions enabled for linting, building and testing code.",
-        "banner": "https://opengraph.githubassets.com/b0581648468e57176ab3bdb3f94ecef5c02793fec58eee608c25a636a4a22343/rolani/flask-random-fruit",
-        "color": "#3572A5",
-        "lang": "Python",
-        "date": "2023-09-02T22:31:21Z",
-        "stars": 1,
-        "forks": 0,
-        "generatedOn": "2025-10-04 04:40:43.555407"
-    }
+  {
+    "name": "flask-app-fargate",
+    "url": "https://github.com/rolani/flask-app-fargate",
+    "description": "Production-style deployment pattern for running Flask APIs on ECS Fargate with containerized operations and cloud-native scaling.",
+    "category": "Cloud Runtime",
+    "tech": "Python, Flask, AWS ECS, Fargate, Docker",
+    "date": "2024-11-06"
+  },
+  {
+    "name": "dask-ecs-lib",
+    "url": "https://github.com/rolani/dask-ecs-lib",
+    "description": "Python library to provision Dask clusters on AWS ECS for parallel execution, reducing setup friction for distributed workloads.",
+    "category": "Distributed Compute",
+    "tech": "Python, Dask, AWS ECS, Fargate",
+    "date": "2024-11-11"
+  },
+  {
+    "name": "pulumi-csharp-infra",
+    "url": "https://github.com/rolani/pulumi-csharp-infra",
+    "description": "Infrastructure-as-code implementation that deploys a C# app stack to AWS EKS with reproducible platform provisioning.",
+    "category": "Infrastructure as Code",
+    "tech": "C#, Pulumi, Kubernetes, AWS EKS",
+    "date": "2023-09-24"
+  },
+  {
+    "name": "terrakube-eks",
+    "url": "https://github.com/rolani/terrakube-eks",
+    "description": "Reference setup for running Terrakube on Amazon EKS with infrastructure automation and self-hosted Terraform workflow controls.",
+    "category": "Platform Engineering",
+    "tech": "Kubernetes, AWS EKS, Terraform, Terrakube",
+    "date": "2025-06-11"
+  },
+  {
+    "name": "SSOSolution-Keycloak",
+    "url": "https://github.com/rolani/SSOSolution-Keycloak",
+    "description": "Single sign-on integration pattern using Keycloak to unify access control across internal engineering platforms.",
+    "category": "Security",
+    "tech": "Python, Keycloak, IAM",
+    "date": "2023-10-13"
+  },
+  {
+    "name": "AirMachine",
+    "url": "https://github.com/rolani/AirMachine",
+    "description": "Distributed simulation framework for edge, fog, and cloud deployments in video surveillance scenarios.",
+    "category": "Research Infrastructure",
+    "tech": "Java, Distributed Systems, Edge/Fog Computing",
+    "date": "2018-02-21"
+  }
 ]

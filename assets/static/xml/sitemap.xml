@@ -1,38 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rolani.github.io</loc>
-    <changefreq>always</changefreq>
+    <loc>https://www.richolaniyan.com/</loc>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rolani.github.io/index.html</loc>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.richolaniyan.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rolani.github.io/fastsync</loc>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://rolani.github.io/fastapi-aws-app-runner</loc>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://rolani.github.io/pulumi-csharp-infra</loc>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://rolani.github.io/dask-ecs-lib</loc>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://rolani.github.io/ClusteringScheduler</loc>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.richolaniyan.com/blog/post.html?slug=welcome-to-my-blog</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

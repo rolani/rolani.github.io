@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog | Richard Olaniyan</title>
+    <meta
+      name="description"
+      content="Technical notes on cloud infrastructure, platform engineering, and reliability."
+    />
+    <link rel="canonical" href="https://www.richolaniyan.com/blog/" />
+    <link rel="stylesheet" href="../assets/static/css/style.css" />
+    <script defer src="../assets/static/js/blog.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="../index.html">Richard Olaniyan</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="./index.html" aria-current="page">Blog</a>
+        </nav>
+      </div>
+    </header>
+    <main class="site-main section">
+      <div class="container">
+        <h1>Blog</h1>
+        <p class="section-intro">
+          Notes on infrastructure, reliability engineering, and platform architecture.
+        </p>
+        <div id="blog-list" class="card-grid"></div>
+      </div>
+    </main>
+    <script>
+      window.__BLOG_POSTS_FALLBACK__ = [
+        {
+          slug: "ci-cd-vs-devops",
+          title: "Understanding the Differences Between CI/CD and DevOps",
+          date: "2024-12-24",
+          tags: ["devops", "ci-cd", "delivery", "engineering-culture"],
+          excerpt:
+            "DevOps is the broader culture and operating model, while CI/CD is a focused automation practice for integration and delivery pipelines.",
+        },
+        {
+          slug: "power-of-pulumi-for-iac",
+          title: "The Power of Pulumi for Infrastructure as Code (IaC)",
+          date: "2025-08-01",
+          tags: ["pulumi", "infrastructure-as-code", "devops", "aws", "azure", "google-cloud"],
+          excerpt:
+            "Pulumi lets teams define cloud infrastructure in familiar programming languages while supporting multi-cloud delivery and modern CI/CD workflows.",
+        },
+        {
+          slug: "welcome-to-my-blog",
+          title: "Welcome to My Engineering Blog",
+          date: "2024-02-12",
+          tags: ["platform-engineering", "cloud", "reliability"],
+          excerpt:
+            "A quick introduction to this blog and the kind of infrastructure and platform topics I will share here.",
+        },
+      ];
+    </script>
+  </body>
+</html>
