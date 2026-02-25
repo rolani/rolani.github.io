@@ -198,8 +198,16 @@ a:hover {
 
 h1 {
   margin: 0 0 1rem;
-  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  font-size: clamp(1.5rem, 2.1vw, 2rem);
   line-height: 1.15;
+}
+
+.hero h1 {
+  font-size: clamp(1.8rem, 2.8vw, 2.55rem);
+}
+
+#post-title {
+  font-size: clamp(1.35rem, 1.9vw, 1.75rem);
 }
 
 .lead {

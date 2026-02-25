@@ -61,13 +61,20 @@ async function loadBlogPost() {
   try {
     const postResponse = await fetch(`../assets/static/blog/posts/${slug}.md`);
     const markdown = await postResponse.text();
-    contentNode.innerHTML = window.marked ? window.marked.parse(markdown) : markdown;
+    const markdownWithoutTitle = markdown.replace(/^\s*#\s+.*(?:\r?\n)+/, "");
+    contentNode.innerHTML = window.marked
+      ? window.marked.parse(markdownWithoutTitle)
+      : markdownWithoutTitle;
   } catch (error) {
     const fallbackHtml =
       window.__BLOG_CONTENT_FALLBACK__ && window.__BLOG_CONTENT_FALLBACK__[slug]
         ? window.__BLOG_CONTENT_FALLBACK__[slug]
         : "<p>Post content is unavailable in this viewing mode.</p>";
-    contentNode.innerHTML = fallbackHtml;
+    const fallbackWithoutTitle = fallbackHtml.replace(
+      /^\s*<h[1-6][^>]*>.*?<\/h[1-6]>\s*/i,
+      ""
+    );
+    contentNode.innerHTML = fallbackWithoutTitle;
   }
 }
 
