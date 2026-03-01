@@ -6,7 +6,7 @@ What is truly remarkable is its versatility in provisioning a wide array of clou
 
 This means you can spin up anything from virtual machines, databases, and storage buckets to serverless functions, networking components, and beyond.
 
-![Pulumi IaC architecture diagram](../images/pulumi-iac-diagram.png)
+![Pulumi IaC architecture diagram](../assets/static/blog/images/pulumi-iac-diagram.png)
 
 *Pulumi architecture overview across local tools, remote deployments, and cloud providers.*
 
@@ -51,6 +51,6 @@ It is a strong option for teams looking to streamline IaC workflows with languag
 ## Useful links
 
 - Pulumi: https://www.pulumi.com/
-- Simple Python example: https://github.com/rolani/pulumi-csharp-infra
+- Simple Python example: https://github.com/rolani/pulumi-csharp-infra/tree/python
 
 Tags: #Pulumi #InfrastructureAsCode #CloudResources #AWS #Azure #GoogleCloud #DevOps
