@@ -383,6 +383,37 @@ h1 {
   flex-direction: column;
 }
 
+.app-highlight {
+  position: relative;
+  overflow: hidden;
+}
+
+.app-highlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    125deg,
+    color-mix(in srgb, var(--primary) 12%, transparent),
+    transparent 50%,
+    color-mix(in srgb, #8b5cf6 10%, transparent)
+  );
+  pointer-events: none;
+}
+
+.app-highlight > * {
+  position: relative;
+}
+
+.app-feature-list {
+  margin: 0 0 1rem;
+  padding-left: 1.1rem;
+}
+
+.app-feature-list li {
+  margin-bottom: 0.45rem;
+}
+
 .contact-grid {
   display: grid;
   gap: 0.9rem;
