@@ -383,6 +383,27 @@ h1 {
   flex-direction: column;
 }
 
+.publication-metrics {
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.publication-metrics .card {
+  text-align: center;
+}
+
+.publication-metrics h3 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.publication-metrics p {
+  margin: 0.3rem 0 0;
+  color: var(--text-muted);
+}
+
 .app-highlight {
   position: relative;
   overflow: hidden;
@@ -421,6 +442,10 @@ h1 {
 }
 
 @media (max-width: 920px) {
+  .publication-metrics {
+    grid-template-columns: 1fr;
+  }
+
   .app-feature-grid {
     grid-template-columns: 1fr;
   }
