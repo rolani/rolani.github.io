@@ -1,0 +1,15 @@
+---
+description: HTML/CSS/JS edits for homepage partials and static assets
+globs:
+  - "**/*.html"
+  - "**/assets/**/*.css"
+  - "**/assets/**/*.js"
+alwaysApply: false
+---
+
+# Static files
+
+- **Partials**: `assets/static/partials/*.html` are fragments — keep valid snippet structure consistent with how `include.js` injects them.
+- **Consistency**: Mirror patterns from neighboring sections (headings hierarchy, spacing classes, `.container`).
+- **No heavy deps**: avoid adding npm/build steps for one-off tweaks.
+- **`repo.js` / `repos.json`**: if changing the JSON schema, update both the renderer in `assets/static/js/repo.js` and documented shape in README.

@@ -1,0 +1,35 @@
+---
+description: Static portfolio conventions for rolani.github.io (www.richolaniyan.com)
+alwaysApply: true
+---
+
+# Portfolio site
+
+## Stack
+
+- Static **HTML**, **CSS**, and **vanilla JS** — no frameworks or bundlers unless the user asks.
+- Homepage sections live in `assets/static/partials/` and are merged at runtime via `assets/static/js/include.js`.
+- Primary styles: `assets/static/css/style.css`. Match existing naming: BEM-ish classes (`section`, `site-header`, `.btn`, etc.), CSS variables already in use.
+
+## SEO and URLs
+
+- Keep **title**, **meta description**, **Open Graph**, **Twitter**, and **JSON-LD** in `index.html` aligned whenever visible copy changes.
+- Canonical and `og:url` target **https://www.richolaniyan.com/** (see existing head).
+
+## Cached assets
+
+- Styles/scripts use query cache-bust (`style.css?v=…`, `repo.js?v=…`). Bump the `v=` value when those files change so CloudFront picks up updates after deploy.
+
+## Deploy
+
+- **Push to `main`**: `.github/workflows/deploy.yml` syncs to S3 and invalidates CloudFront. Do not hardcode secrets; they stay in repo **Actions secrets**.
+
+## Data and blog
+
+- Project cards read **assets/static/json/repos.json**. Follow README field expectations and curated ordering.
+- Blog: **assets/static/blog/posts/*.md** and **assets/static/blog/posts/index.json**; URLs/sitemap lives under **assets/static/xml/sitemap.xml** when adding posts.
+
+## Quality bar
+
+- Semantic landmarks (`main`, `header`, `nav`), skip link pattern, sensible `alt` text, buttons/links labeled for screen readers.
+- Prefer editing **partials** or **JSON** over duplicating large HTML blocks across files.
