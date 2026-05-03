@@ -32,7 +32,7 @@
     />
     <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/34588531?v=4" />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/34588531?v=4" />
-    <link rel="stylesheet" href="assets/static/css/style.css?v=20260225" />
+    <link rel="stylesheet" href="assets/static/css/style.css?v=20260502" />
     <script defer src="assets/static/js/repo.js?v=20260225"></script>
     <script
       type="application/ld+json"
@@ -370,27 +370,9 @@
               ><span aria-hidden="true">in</span> LinkedIn profile</a
             >
           </div>
-          <div class="linkedin-badge-wrap">
-            <div
-              class="badge-base LI-profile-badge"
-              data-locale="en_US"
-              data-size="medium"
-              data-theme="light"
-              data-type="VERTICAL"
-              data-vanity="richard-olaniyan"
-              data-version="v1"
-            >
-              <a
-                class="badge-base__link LI-simple-link"
-                href="https://www.linkedin.com/in/richard-olaniyan?trk=profile-badge"
-                >Richard Olaniyan, PhD</a
-              >
-            </div>
-          </div>
         </div>
       </section>
     </main>
-    <script defer src="https://platform.linkedin.com/badges/js/profile.js"></script>
     <footer class="site-footer">
       <div class="container footer-wrap">
         <p>Richard Olaniyan © <span data-current-year></span>. All rights reserved.</p>
@@ -475,16 +457,6 @@
             localStorage.setItem("site-theme", next);
           });
         }
-
-        window.addEventListener("load", function linkedInBadgeEnsure() {
-          window.setTimeout(function () {
-            if (typeof window.LIRenderAll !== "function") return;
-            document.querySelectorAll(".LI-profile-badge[data-rendered='true']").forEach(function (el) {
-              if (!el.querySelector("iframe")) el.removeAttribute("data-rendered");
-            });
-            window.LIRenderAll();
-          }, 750);
-        });
 
         const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
         if (!reduceMotion && "IntersectionObserver" in window) {
