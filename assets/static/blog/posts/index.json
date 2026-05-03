@@ -1,5 +1,19 @@
 [
   {
+    "slug": "basics-of-vibecoding",
+    "title": "The basics of VibeCoding",
+    "date": "2026-05-03",
+    "tags": [
+      "platform-engineering",
+      "sre",
+      "developer-experience",
+      "ai-assisted-development",
+      "engineering-culture",
+      "guardrails"
+    ],
+    "excerpt": "VibeCoding is fast, iterative AI-assisted building—not a license to skip blast radius. Here is how platform teams should think about speed, verification, and where it breaks down."
+  },
+  {
     "slug": "ci-cd-vs-devops",
     "title": "Understanding the Differences Between CI/CD and DevOps",
     "date": "2026-02-24",
