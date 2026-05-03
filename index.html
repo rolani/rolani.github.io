@@ -41,7 +41,6 @@
       type="application/ld+json"
     >{"@context":"https://schema.org","@type":"WebSite","name":"Richard Olaniyan","url":"https://www.richolaniyan.com/"}</script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4NJD8J3MD"></script>
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -376,14 +375,14 @@
               class="badge-base LI-profile-badge"
               data-locale="en_US"
               data-size="medium"
-              data-theme="dark"
+              data-theme="light"
               data-type="VERTICAL"
               data-vanity="richard-olaniyan"
               data-version="v1"
             >
               <a
                 class="badge-base__link LI-simple-link"
-                href="https://ca.linkedin.com/in/richard-olaniyan?trk=profile-badge"
+                href="https://www.linkedin.com/in/richard-olaniyan?trk=profile-badge"
                 >Richard Olaniyan, PhD</a
               >
             </div>
@@ -391,6 +390,7 @@
         </div>
       </section>
     </main>
+    <script defer src="https://platform.linkedin.com/badges/js/profile.js"></script>
     <footer class="site-footer">
       <div class="container footer-wrap">
         <p>Richard Olaniyan © <span data-current-year></span>. All rights reserved.</p>
@@ -475,6 +475,16 @@
             localStorage.setItem("site-theme", next);
           });
         }
+
+        window.addEventListener("load", function linkedInBadgeEnsure() {
+          window.setTimeout(function () {
+            if (typeof window.LIRenderAll !== "function") return;
+            document.querySelectorAll(".LI-profile-badge[data-rendered='true']").forEach(function (el) {
+              if (!el.querySelector("iframe")) el.removeAttribute("data-rendered");
+            });
+            window.LIRenderAll();
+          }, 750);
+        });
 
         const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
         if (!reduceMotion && "IntersectionObserver" in window) {
