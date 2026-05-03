@@ -1,4 +1,5 @@
-[![Site Deployment Status](https://github.com/rolani/rolani.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/rolani/rolani.github.io/actions/workflows/deploy.yml)
+[![CI](https://github.com/rolani/rolani.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/rolani/rolani.github.io/actions/workflows/ci.yml)
+[![CD](https://github.com/rolani/rolani.github.io/actions/workflows/cd.yml/badge.svg)](https://github.com/rolani/rolani.github.io/actions/workflows/cd.yml)
 
 ## Overview
 
@@ -73,17 +74,16 @@ Notes:
 
 ## Deployment (CI/CD)
 
-GitHub Actions deploys the site to AWS S3 + CloudFront on each merge to `main`.
+Pull requests to `main` run **CI** (`.github/workflows/ci.yml`). Pushes to `main` run **CD** (`.github/workflows/cd.yml`), which deploys to AWS S3 + CloudFront.
 
-Required repository secrets:
+Configure **Settings → Rules → Rulesets** (or classic branch protection) on `main` so merges require a PR and a green **CI / validate** check; use `.github/rulesets/main-branch.json` with the REST API or paste as a reference when creating the ruleset. From the repo root with the [GitHub CLI](https://cli.github.com/): `gh api repos/rolani/rolani.github.io/rulesets --method POST --input .github/rulesets/main-branch.json` (run this only after **CI** has completed on at least one PR so the check name is known to GitHub).
+
+Required repository secrets for CD:
 
 - `AWS_ACCESS_KEY_ID`
 - `AWS_SECRET_ACCESS_KEY`
 
-See `.github/workflows/deploy.yml` for deployment details.
-
-
-[![Site Deployment Status](https://github.com/rolani/rolani.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/rolani/rolani.github.io/actions/workflows/deploy.yml)
+See `.github/workflows/cd.yml` for deployment steps.
 
 ## About
 
@@ -95,9 +95,10 @@ This site is automatically deployed to AWS S3 and CloudFront using GitHub Action
 
 ### How it works
 
-- On every merge to the `main` branch, a GitHub Actions workflow runs to:
+- **CI** runs on pull requests to `main` and validates site JSON/XML.
+- **CD** runs on every push to `main` (including merged PRs) to:
 	1. Sync the site files to the S3 bucket.
-	2. Invalidate the CloudFront distribution cache to ensure updates are live.
+	2. Invalidate the CloudFront distribution cache so updates go live.
 
 ### AWS Setup
 
@@ -110,6 +111,6 @@ These credentials must have permissions for S3 sync and CloudFront invalidation.
 
 ### Workflow file
 
-See `.github/workflows/deploy.yml` for the full workflow configuration.
+See `.github/workflows/ci.yml` and `.github/workflows/cd.yml` for workflow definitions.
 
 ---

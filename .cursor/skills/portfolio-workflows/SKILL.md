@@ -5,7 +5,7 @@ description: >-
   partials, repos.json projects, blog posts, SEO/meta, asset cache versioning, and
   S3/CloudFront deploy implications. Use when editing index.html, partials under
   assets/static/partials/, CSS/JS under assets/static/, repos.json, blog posts,
-  sitemap/robots, or .github/workflows/deploy.yml.
+  sitemap/robots, or GitHub workflow files under .github/workflows/.
 ---
 
 # Portfolio workflows
@@ -28,4 +28,4 @@ description: >-
 
 ## Deploy awareness
 
-Push to **`main`** runs **S3 sync** and **CloudFront invalidation** (`/*`). No local build step — invalidation clears paths, but **`?v=`** bumps reduce stale asset risk for hashed routes.
+Push to **`main`** runs **CD** (S3 sync + CloudFront invalidation). Pull requests targeting **`main`** run **CI** (`.github/workflows/ci.yml`). No local build step — invalidation clears paths, but **`?v=`** bumps reduce stale asset risk for hashed routes.
