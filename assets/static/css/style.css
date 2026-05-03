@@ -471,12 +471,6 @@ h1 {
   transform: translateY(-3px);
 }
 
-.linkedin-badge-wrap {
-  margin-top: 1.25rem;
-  display: flex;
-  justify-content: center;
-}
-
 .site-footer {
   margin-top: 1rem;
   border-top: 1px solid var(--border);
