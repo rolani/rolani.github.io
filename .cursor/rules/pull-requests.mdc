@@ -7,6 +7,7 @@ alwaysApply: true
 
 ## When suggesting or drafting a PR
 
+- **Cursor command**: Run **Command `create-pr`** (see `.cursor/commands/create-pr.md`) to push the branch, write **`.github/pr-body.local.md`** from the template, and run **`gh pr create --body-file ...`**.
 - **Title**: Imperative, scoped, and readable in the merge history (e.g. “Add CI workflow for main”, not “updates”).
 - **Body**: Do not send an empty description. Follow the sections in **`.github/pull_request_template.md`** (Summary, Changes, Testing, Notes). Pre-fill with concrete bullets tied to the diff; remove sections that truly do not apply and say so briefly.
 - **Links**: Reference related issues or tickets when relevant.
