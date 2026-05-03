@@ -22,7 +22,7 @@ alwaysApply: true
 
 ## Deploy
 
-- **Push to `main`**: `.github/workflows/deploy.yml` syncs to S3 and invalidates CloudFront. Do not hardcode secrets; they stay in repo **Actions secrets**.
+- **Push to `main`**: `.github/workflows/cd.yml` syncs to S3 and invalidates CloudFront. PRs run `.github/workflows/ci.yml`. Do not hardcode secrets; they stay in repo **Actions secrets**.
 
 ## Data and blog
 

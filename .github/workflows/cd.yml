@@ -1,9 +1,18 @@
-name: Deploy to S3 and Invalidate CloudFront
+# Continuous delivery — runs only after changes land on main (typically via merged PR).
+
+name: CD
 
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
 
 jobs:
   deploy:

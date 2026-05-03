@@ -1,0 +1,49 @@
+# Continuous integration — runs on pull requests targeting main.
+# CD is .github/workflows/cd.yml (push to main only).
+#
+# After this workflow has run at least once on a PR, enable a repository ruleset
+# (or classic branch protection) that requires the check: "CI / validate"
+# See: .github/rulesets/main-branch.json
+
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON and sitemap XML
+        run: |
+          python <<'PY'
+          import json
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+
+          root = Path(".")
+          for rel in (
+              "assets/static/json/repos.json",
+              "assets/static/blog/posts/index.json",
+          ):
+              p = root / rel
+              assert p.is_file(), f"Missing {rel}"
+              json.loads(p.read_text(encoding="utf-8"))
+
+          sm = root / "assets/static/xml/sitemap.xml"
+          assert sm.is_file(), "Missing assets/static/xml/sitemap.xml"
+          ET.parse(sm)
+          print("Site data files are valid.")
+          PY

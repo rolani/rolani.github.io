@@ -57,6 +57,9 @@ coverage.xml
 .mypy_cache/
 .dmypy.json
 
+# Local PR description for gh pr create (Cursor command: create-pr)
+.github/pr-body.local.md
+
 # VS Code
 .vscode/
 

@@ -1,0 +1,4 @@
+# Default owner for everything in the repo.
+# GitHub automatically requests review from these users when a PR modifies matching paths.
+# Change @rolani if your preferred reviewer username is different.
+* @rolani
